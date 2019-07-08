@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import store from '../common/redux/store';
 import MainContainer from './App';
 
-import './resources/styles/app.css';
+import './src/resources/styles/app.css';
 
 const App = () => (
   <Provider store={store}>

@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import { Text, View, Image } from 'react-native';
 // import store from '../common/redux/store';
 
-import styles from './src/resources/styles/app';
-// import CommonApp, { reduxConnect } from '../common/super_containers/App';
-import ReactImage from '../common/data/images/react.png';
+import styles from './src/client/mobile/src/resources/styles/app';
+// // import CommonApp, { reduxConnect } from '../common/super_containers/App';
+import ReactImage from './src/client/common/data/images/react.png';
 
 class MainContainer extends Component {
   componentWillMount() {

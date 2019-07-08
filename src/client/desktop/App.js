@@ -15,5 +15,5 @@ class App extends CommonApp {
     );
   }
 }
-// Y5TLn!PT
+
 export default reduxConnect(App);

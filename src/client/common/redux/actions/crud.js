@@ -1,4 +1,3 @@
-// import { client, wsClient } from '../store';
 import constants from '../constants/crud';
 import api from '../../services/api';
 
@@ -22,9 +21,8 @@ export const listUsers = () => async (dispatch) => {
   dispatch({ type: constants.LIST, users });
 };
 
-export const getUser = () => async (dispatch) => {
+export const getUser = () => async (dispatch, getState) => {
   const user = await api.get(constants.url.getInfo);
-  console.log('User User', user);
   dispatch({ type: constants.USER, user });
 };
 

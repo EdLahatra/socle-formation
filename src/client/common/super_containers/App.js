@@ -12,6 +12,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    // eslint-disable-next-line react/destructuring-assignment
     this.props.getUser();
   }
 }
@@ -25,10 +26,6 @@ App.propTypes = {
 };
 
 export default App;
-
-//
-// Redux connection
-//
 
 const mapStateToProps = state => ({
   crud: state.crud,

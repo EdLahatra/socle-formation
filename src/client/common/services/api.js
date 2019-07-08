@@ -1,7 +1,9 @@
-import config from '../../../../config';
+// import store from 'store'
+import config from '../config';
 
 const axios = require('axios');
 
+// store.getState().user.token,
 axios.create({
   baseURL: config.baseURL,
   timeout: 5000,
