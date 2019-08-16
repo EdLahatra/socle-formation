@@ -1,4 +1,8 @@
 {
   "name": "mobile",
-  "displayName": "mobile"
+  "displayName": "mobile",
+  "packagerOpts": {
+    "projectRoots": "./src/client/mobile",
+    "config": "rn-cli.config.js"
+  }
 }

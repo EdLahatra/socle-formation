@@ -7,10 +7,10 @@
 const path = require('path');
 
 module.exports = {
-  // projectRoot: __dirname,
-  // watchFolders: [path.resolve(__dirname, '../')],
-  projectRoot: path.resolve(__dirname, './src/client/mobile/'),
-  watchFolders: [path.resolve(__dirname, './src/client/mobile')],
+  projectRoot: __dirname,
+  watchFolders: [path.resolve(__dirname, './')],
+  // projectRoot: path.resolve(__dirname, './src/client/mobile/'),
+  // watchFolders: [path.resolve(__dirname, './src/client/mobile')],
   transformer: {
     getTransformOptions: async () => ({
       transform: {
